@@ -125,7 +125,7 @@ p {
 @media screen and (min-width: 700px) {
     .grid {
         display: grid;
-        grid-template-columns: 1fr repeat(2, minmax(auto, 450px)) 1fr;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 500px)) 1fr;
     }
     .content-wrap {
         grid-column: 2/4;
@@ -147,10 +147,7 @@ p {
         width: 31%;
     }
 
-    #section-b img {
-        width: 100%;
-        height: auto;
-    }
+
     .box {
         grid-column: span 2;
     }
